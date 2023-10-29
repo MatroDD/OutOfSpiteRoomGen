@@ -49,3 +49,5 @@ for i in range (1,100):
     print("Room Name: ",x.name)
     print("Room Doors: ",x.doors)
     print("Room Complexity: ",x.complexity)
+
+b = int(input())
