@@ -102,10 +102,11 @@ print("Successfully generated " + str(len(d)) + " rooms.")
 print("Here is the array of connections: ")
 print(connections)
 
-print("here's a random room: ")
-x = d[randint(1, number)]
+print("Here's a random room: ")
+x = d[randint(1, len(d))]
 print(str(x.adjective) + " " + str(x.name))
 print("Room no. " + str(x.num))
+print("Coordinates: " + str(x.coordinate))
     
 
 
